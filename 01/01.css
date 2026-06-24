@@ -1,0 +1,20 @@
+.container {
+    border: 1px solid;
+    width: 500px;
+    padding: 5px;
+}
+.container ul {
+    border: 1px solid;
+    width: 300px;
+    padding: 5px;
+}
+.container ul li {
+    border: 1px solid red;
+    width: 200px;
+}
+.container ul li.name {
+    color: green;
+}
+.container ul li.age {
+    background-color: orange;
+}

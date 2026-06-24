@@ -1,0 +1,72 @@
+.container {
+    border: 1px solid;
+    width: 500px;
+    padding: 5px;
+    ul {
+        border: 1px solid;
+        width: 300px;
+        padding: 5px;
+        li {
+            border: 1px solid red;
+            width: 200px;
+            &.name {
+                color: green;
+            }
+            &.age {
+                background-color: royalblue;
+            }
+        }
+        // li.name {
+        //     color: blue;
+        // }
+    }
+}
+
+.container2 {
+    .btn {
+        border: 1px solid;
+        width: 100px;
+        margin: 5px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+
+        &.active {
+            color: red;
+        }
+    }
+    .fs {
+        &-small {
+            font-size: 5rem;
+        }
+        &-medium {
+            font-size: 1.2rem;
+        }
+        &-large {
+            font-size: 2rem;
+        }
+    }
+}
+
+.container3 {
+    .box {
+        width: 200px;
+        border: 1px solid;
+        font: {
+            weight: bold;
+            size: 10px;
+            family: "sans-serif";
+        };
+        margin: {
+            top: 10px;
+            bottom: 20px;
+        };
+        padding: {
+            top: 10px;
+            right: 20px;
+            bottom: 30px;
+            left: 40px;
+        };
+    }
+}

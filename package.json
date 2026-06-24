@@ -1,0 +1,26 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "SCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel 02/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/study-log-0224/SCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/study-log-0224/SCSS/issues"
+  },
+  "homepage": "https://github.com/study-log-0224/SCSS#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.101.0"
+  }
+}

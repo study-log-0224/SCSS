@@ -1,0 +1,14 @@
+$size: 200px;
+
+.container {
+    margin: 50px;
+    $localsize : 100px;
+    li {
+        border: 1px solid;
+    }
+    .item {
+        width: $size;
+        height: $localsize;
+        border: 1px solid;
+    }
+}
